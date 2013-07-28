@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 import bunch
 
-IMAGE_DIR = '/Users/bugra/Dropbox/Github/eigfacepy/example'
+IMAGE_DIR = 'example'
 DEFAULT_SIZE = 10000  # 100x100
 
 
