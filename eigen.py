@@ -96,5 +96,10 @@ class EigenFace(object):
     def get_eigen_value_distribution(self):
         return np.cumsum(self.pca.s) / np.sum(self.pca.s)
 
+    def get_number_of_components_to_preserve_variance(self, variance=.95):
+        for ii, eigen_value_cumsum in enumerate(self.get_eigen_value_distribution()):
+            if eigen_value_cumsum > variance:
+                return ii
+
     def plot_eigen_value_distribution(self, interval):
         plt.scatter(interval, self.get_eigen_value_distribution()[interval])
