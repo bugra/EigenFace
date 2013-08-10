@@ -15,5 +15,5 @@ the flow of the program.
 
 
 
-0: http://bugra.github.io/work/notes/2013-07-27/PCA-EigenFace-And-All-That/
-1: https://github.com/bugra/EigenFace/blob/master/EigenFace.ipynb
+	[0]: http://bugra.github.io/work/notes/2013-07-27/PCA-EigenFace-And-All-That/  
+	[1]: https://github.com/bugra/EigenFace/blob/master/EigenFace.ipynb
